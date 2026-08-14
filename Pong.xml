@@ -14,7 +14,15 @@
 
     <remote name="los"
 	    fetch="https://github.com/LineageOS"
-	    clone-depth="1" />
+      clone-depth="1" />
+
+    <remote name="moch"
+	    fetch="https://github.com/mistrmochov"
+      clone-depth="1" />
+
+    <!-- Vulkan enforcement fix -->
+    <remove-project name="AxionAOSP/android_device_axion_common" />
+    <project path="device/axion/common" name="android_device_axion_common" remote="moch" revision="lineage-23.2" />
 
     <!-- Device -->
     <project path="device/nothing/Pong" name="android_device_nothing_Pong" remote="jh3" revision="axion-16.2" />
