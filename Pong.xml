@@ -36,7 +36,7 @@
     <project path="vendor/nothing/Pong" name="proprietary_vendor_nothing_Pong" remote="jh3-gl" revision="lineage-23.2" />
 
     <!-- Dolby -->
-    <project path="hardware/dolby" name="hardware_dolby" remote="NullDebris" revision="lunaris" />
+    <project path="hardware/dolby" name="hardware_dolby" remote="moch" revision="lunaris" />
 
     <!-- Glyph -->
     <project path="packages/apps/ParanoidGlyph" name="packages_apps_ParanoidGlyph" remote="NullDebris" revision="lineage-23.1" />
